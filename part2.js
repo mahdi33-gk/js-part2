@@ -11,4 +11,6 @@ const max2= getmax(22,32);
 const tmax= getmax(33,122);
 const ultimatemax=getmax(max2,tmax);
 
-console.log(max2,tmax,ultimatemax);
+
+const foundi=Math.max(22,21);
+console.log(max2,tmax, foundi,ultimatemax);
