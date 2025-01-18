@@ -11,3 +11,23 @@ function getmax(numbers){
 }
 const foundone= getmax(allnam);
 console.log(foundone);
+
+
+
+
+
+
+
+const minimal=[1123,2222,32303,312323,43456,34346,3556,346874,23422];
+
+function getmin(number){
+    let mininmbr=minimal[0];
+    for(const ittem of number){
+        if(ittem<mininmbr){
+            mininmbr=ittem;
+        }
+    }
+    return mininmbr;
+}
+const realmini= getmin(minimal);
+console.log(realmini);
