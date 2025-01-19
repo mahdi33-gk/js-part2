@@ -49,3 +49,29 @@ function getmoney(something){
 }
 const getmone= getmoney(allproducts);
 console.log(getmone);
+
+
+
+
+
+
+
+
+
+
+function discount(quantity){
+    if(quantity <= 100){
+        const total= quantity * 599;
+        return total;
+    }
+    else if(quantity <=200){
+        const total= quantity * 700;
+        return total;
+    }
+    else{
+        const total= quantity *300;
+        return total;
+    }
+}
+const discountPrice= discount(200);
+console.log(discountPrice);
