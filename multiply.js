@@ -29,5 +29,5 @@ function getresult(nmbr1,nmbr2,operation){
         return reslt;
     }
 }
-const getans= getresult(33,44,'add');
+const getans= getresult(33,44,'multi');
 console.log(getans);
