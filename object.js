@@ -9,9 +9,13 @@ const chepeast_phones=[
 
 
 function allkindaPhones(phones){
+    let cheap=chepeast_phones[0];
     for(const allphone of phones){
-        console.log(allphone);
+        if(allphone<cheap){
+            cheap=allphone;
+        }
     }
+    return cheap;
 }
 const reslt= allkindaPhones(chepeast_phones);
 console.log(reslt);
