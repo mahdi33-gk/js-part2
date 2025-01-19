@@ -11,7 +11,7 @@ const chepeast_phones=[
 function allkindaPhones(phones){
     let cheap=chepeast_phones[0];
     for(const allphone of phones){
-        if(allphone<cheap){
+        if(allphone.price<cheap.price){
             cheap=allphone;
         }
     }
