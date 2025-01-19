@@ -1,14 +1,14 @@
 function add(nmbr1,nmbr2){
-    return a+b;
+    return nmbr1+nmbr2;
 }
 function devide(nmbr1,nmbr2){
-    return a-b;
+    return nmbr1-nmbr2;
 }
 function multi(nmbr1,nmbr2){
-    return a*b;
+    return nmbr1*nmbr2;
 }
 function subtract(nmbr1,nmbr2){
-    return a/b;
+    return nmbr1/nmbr2;
 }
 
 function getresult(nmbr1,nmbr2,operation){
