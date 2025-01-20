@@ -100,5 +100,5 @@ function objectCheck(numberr){
         return price;
     }
 }
-const objectchecker= objectCheck({name:'dalim',price:3000});
+const objectchecker= objectCheck("[1,2,3]");
 console.log(objectchecker);
