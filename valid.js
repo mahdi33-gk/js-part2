@@ -23,3 +23,17 @@ function multi(nmbr1,nmbr2){
 }
 const gotcha= multi(2,6);
 console.log(gotcha);
+
+
+
+function nameadder(first,second){
+    if(typeof first !== 'string' || typeof second !== 'string'){
+        return 'String only sir.please provide a string';
+    }
+    else{
+        const adder= first +' '+ second;
+        return adder;
+    }
+}
+const namecheck= nameadder('Nidhu','Buttu');
+console.log(namecheck);
