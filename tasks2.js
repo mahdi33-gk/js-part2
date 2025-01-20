@@ -5,19 +5,24 @@ const employees = [
     { name: "shohel", experience: 0, starting: 29000, increment: 4000 }
 ];
 function Salary(empoyee){
+    let newSl=[];
     for(const money of empoyee){
         if(money.experience==0){
             const newSalary= money.increment +money.starting;
-            console.log(newSalary);
+            newSl.push(newSalary);
         }
         else{
             const newSalary= money.experience * money.increment;
             const log= newSalary + money.starting;
-            console.log(log);
+            newSl.push(log);
         }
     }
-    return 'shahin,shihab,shoikot,shohel.';
+    return newSl;
 }
 
 const finalResult= Salary(employees);
 console.log(finalResult);
+const averge= finalResult / employees.length;
+console.log(averge);
+
+
