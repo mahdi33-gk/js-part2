@@ -17,12 +17,9 @@ function Salary(empoyee){
             newSl.push(log);
         }
     }
+    
     return newSl;
 }
 
 const finalResult= Salary(employees);
 console.log(finalResult);
-const averge= finalResult / employees.length;
-console.log(averge);
-
-
