@@ -8,5 +8,18 @@ function checksomething(num,num2){
     }
     
 }
-const result= checksomething(3,"4");
+const result= checksomething(3,4);
 console.log(result);
+
+
+function multi(nmbr1,nmbr2){
+    if(nmbr1 || nmbr2 !== typeof 'number'){
+        return 'provide a number please';
+    }
+    else{
+        const result= nmbr1 * nmbr2;
+        return result;
+    }
+}
+const gotcha= multi(2,6);
+console.log(gotcha);
