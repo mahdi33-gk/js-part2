@@ -81,3 +81,24 @@ function findFourthItem(numbhers){
 }
 const rstt= findFourthItem([1,2,3]);
 console.log(rstt);
+
+
+
+
+
+
+
+
+
+
+function objectCheck(numberr){
+    if(typeof numberr !== 'object'){
+        return 'Sir/Maam, please provide and object.'
+    }
+    else{
+        const price= numberr.price;
+        return price;
+    }
+}
+const objectchecker= objectCheck({name:'dalim',price:3000});
+console.log(objectchecker);
