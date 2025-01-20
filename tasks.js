@@ -10,8 +10,10 @@ function priceAvrg(phones){
     let dprice=0;
     for(const phone of phones){
         dprice= dprice + phone.price;
+        
     }
-    return dprice;
+    const avrg = dprice / phones.length;
+    return avrg;
 }
 
 const avrg= priceAvrg(mobiles);
