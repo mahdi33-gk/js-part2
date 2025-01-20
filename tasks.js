@@ -7,13 +7,12 @@ const mobiles=[
 ]
 
 function priceAvrg(phones){
-    let dprice=0;
+    let sum=0;
     for(const phone of phones){
-        dprice= dprice + phone.price;
-        
+        sum=sum+phone.price;
     }
-    const avrg = dprice / phones.length;
-    return avrg;
+    const aver= sum/phones.length;
+    return aver;
 }
 
 const avrg= priceAvrg(mobiles);
