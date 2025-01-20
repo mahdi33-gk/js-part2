@@ -33,3 +33,22 @@ function getLitteone(words){
 
 const resut= getLitteone(names);
 console.log(resut);
+
+
+
+
+function buylaptoptvmobile(quantitylap,quantitymob,quantitytv){
+    const tvprice=20000;
+    const laptop=34000;
+    const mobile=15000;
+
+    const payableForTv= quantitytv * tvprice;
+    const payableForlaptop= quantitylap * laptop;
+    const payableFormobile= quantitymob * mobile;
+
+    const totalPayableMOney= payableForTv + payableForlaptop + payableFormobile;
+
+    console.log(totalPayableMOney);
+}
+
+buylaptoptvmobile(1,1,1);
