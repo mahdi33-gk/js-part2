@@ -37,3 +37,47 @@ function nameadder(first,second){
 }
 const namecheck= nameadder('Nidhu','Buttu');
 console.log(namecheck);
+
+
+
+function arery(numbers){
+    if(Array.isArray(numbers)){
+        const second= numbers[2];
+        return second;
+    }
+    else{
+        return 'provide a valid array';
+    }
+}
+const array= arery([1,23.4,57,97,6,4]);
+console.log(array);
+
+
+
+
+
+
+
+
+
+
+
+function findFourthItem(numbhers){
+    if(Array.isArray(numbhers)){
+        if(numbhers.length>=4){
+            const fourthnmbr= numbhers[3];
+            return fourthnmbr;
+        }
+        else{
+            const lengthi= numbhers.length;
+            const ans= 'There is no 4th number. there is only '+ lengthi +' numbers.';
+            return ans;
+        }
+    }
+    
+    else{
+        return 'please provide an array';
+    }
+}
+const rstt= findFourthItem([1,2,3,4,5,6,4]);
+console.log(rstt);
