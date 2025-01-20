@@ -79,5 +79,5 @@ function findFourthItem(numbhers){
         return 'please provide an array';
     }
 }
-const rstt= findFourthItem([1,2,3,4,5,6,4]);
+const rstt= findFourthItem([1,2,3]);
 console.log(rstt);
