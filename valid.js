@@ -13,7 +13,7 @@ console.log(result);
 
 
 function multi(nmbr1,nmbr2){
-    if(nmbr1 || nmbr2 !== typeof 'number'){
+    if(typeof nmbr1 ==! 'number' ||  typeof nmbr2 !==  'number'){
         return 'provide a number please';
     }
     else{
